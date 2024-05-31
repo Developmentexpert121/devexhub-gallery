@@ -1,0 +1,26 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+.layout-img{
+    width: auto;
+}
+.h-200{
+    min-height: 150px;
+}
+.h-200 p{
+    font-size: 16px;
+}
+.overlay img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 1px 0px 3px 1px #0000007d;
+    background-color: white;
+    border-radius: 30px;
+    padding: 6px;
+}
+#email-form input, #email-form textarea{
+border: 1px solid #8c8f943b !important;
+}
